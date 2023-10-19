@@ -13,7 +13,7 @@ search.addEventListener('click', () => {
         return
     }
 
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city.value}&units=metric&appid=${APIKey}`).then(response => response.json())
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city.value}&units=metric&appid=${APIKey}&lang=pt_br`).then(response => response.json())
         .then(json => {
 
             if (json.cod === '404') {
@@ -199,7 +199,7 @@ var fetchAddress = function (coordinates, entityType) {
         key: apiMapKey,
         position: coordinates,
         entityType: entityType,
-        language: 'en-GB'
+        language: 'pt-BR'
     });
 };
 var fetchPolygon = function (geometry) {
