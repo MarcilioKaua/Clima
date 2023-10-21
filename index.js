@@ -6,6 +6,12 @@ const weatherDetails = document.querySelector('.weather-details');
 const error = document.querySelector('.not-found');
 const city = document.querySelector('.search-container input');
 
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      search.click();
+    }
+});
+
 search.addEventListener('click', () => {
     const APIKey = '620ec1f2aee8e4f581a6681af29a791e';
 
@@ -75,8 +81,6 @@ search.addEventListener('click', () => {
 });
 
 //Map
-const mapContainer = document.querySelector('.map-container');
-
 apiMapKey = 'sJH69k05GshKgAfgU67VWqEAFNfwDAcg'
 
 var state = {
@@ -93,7 +97,6 @@ var map = tt.map({
     container: 'map',
     center: state.center,
     zoom: 2,
-    dragPan: !isMobileOrTablet()
 });
 var roundLatLng = Formatters.roundLatLng;
 map
@@ -258,7 +261,7 @@ var errorHint = new InfoHint('error', 'bottom-center', 5000)
     .addTo(map.getContainer());
 var loadingHint = new InfoHint('info', 'bottom-center', 3000)
     .addTo(map.getContainer());
-new Foldable('.js-foldable', 'top-right');
+
 //-- Form
     counterElement = document.querySelector('.tt-counter'),
     buttonGroupElement = document.querySelector('.tt-buttons-group');

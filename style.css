@@ -15,6 +15,7 @@
 }
 
 body{
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -41,8 +42,8 @@ body{
 
 .container{
     position: relative;
-    width: 400px;
-    height: 105px;
+    width: 30%;
+    height: 100px;
     margin-top: 10px;
     background: #fff;
     padding: 28px 32px;
@@ -62,7 +63,7 @@ body{
 .search-container input{
     color: #06283D;
     width: 80%;
-    font-size: 24px;
+    font-size: 1.1rem;
     font-weight: 500;
     text-transform: uppercase;
     padding-left: 32px;
@@ -72,7 +73,7 @@ body{
     font-size: 20px;
     font-weight: 500;
     color: #06283D;
-    text-transform: capitalize;
+    text-transform: lowercase;
 }
 
 .search-container button{
@@ -103,7 +104,7 @@ body{
 
 .weather-container img{
     width: 60%;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 .weather-container .temperature{
@@ -137,19 +138,17 @@ body{
 
 .weather-details .humidity, .weather-details .wind{
     display: flex;
-    align-items: center;
+    align-items: end;
     width: 50%;
     height: 100px;
 }
 
 .weather-details .humidity{
     display: flex; 
-    padding-left: 20px;
     justify-content: flex-start;
 }
 
 .weather-details .wind{
-    padding-right: 20px;
     justify-content: flex-end;
 }
 
@@ -270,7 +269,18 @@ body{
         flex-direction: column;
     }
     .container {
-        width: 70%;
+        width: 90%;
+        height: 70px;
+        padding: 10px 10px;
+    }
+    .weather-container img {
+        margin-top: 0;
+    }
+    .weather-container .temperature{
+        margin-top: 5px;
+    }
+    .weather-details {
+        margin-top: 0px;
     }
     #map {
         width: 100%;

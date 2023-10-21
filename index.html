@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
+    <meta http-equiv='X-UA-Compatible' content='IE=Edge' />
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no'/>
     <link rel='stylesheet' type='text/css' href='https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.0/maps/maps.css'>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./image/favicon-32x32.png">
     <title>Clima</title>
 </head>
-
 <body>
     <div class="background">
         <video autoplay muted loop src="video/rain.mp4"></video>
@@ -27,32 +27,29 @@
             <img src="">
             <p class="temperature"></p>
             <p class="description"></p>
-        </div>
-        <div class="weather-details">
-            <div class="humidity">
-                <i class="fa-solid fa-water"></i>
-                <div class="text">
-                    <span></span>
-                    <p>Umidade</p>
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-solid fa-water"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Umidade</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Vento</p>
+                    </div>
                 </div>
             </div>
-            <div class="wind">
-                <i class="fa-solid fa-wind"></i>
-                <div class="text">
-                    <span></span>
-                    <p>Vento</p>
-                </div>
-            </div>
         </div>
+        
     </div>
 
     <div id='map' class='map'>
         <div class='tt-overlay-panel -left-top -medium js-foldable'>
             <form class='tt-form'>
-                <!-- <label class='tt-form-label' style="z-index: 10000000; position: relative;">
-                    Geometries zoom (<span class='tt-counter'></span>)
-                    <input class='tt-slider' type='range' min='0' max='22' />
-                </label> -->
                 <div class='tt-form-label group-container'>
                     Buscar por:
                     <div class='tt-buttons-group'>
@@ -63,11 +60,8 @@
             </form>
         </div>
     </div>
-    
-    <script type='text/javascript' src='./assets/foldable.js'></script>
     <script type='text/javascript' src='./assets/info-hint.js'></script>
     <script type='text/javascript' src='./assets/layer-manager.js'></script>
-    <script type='text/javascript' src='./assets/mobile-or-tablet.js'></script>
     <script type='text/javascript' src='./assets/buttons-group.js'></script>
     <script type='text/javascript' src='./assets/formatters.js'></script>
     <script src='https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.0/maps/maps-web.min.js'></script>
@@ -75,5 +69,4 @@
     <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
