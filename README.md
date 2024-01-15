@@ -10,13 +10,12 @@ Você pode realizar pesquisas utilizando o nome da localidade ou explorar um map
 Dependendo do tipo de clima, o sistema exibirá um vídeo de fundo que descreve as condições climáticas atuais da região escolhida.
 
 ## Layout web
-![Web 1](https://media.licdn.com/dms/image/D4D22AQFTbo_trrozKA/feedshare-shrink_2048_1536/0/1697925355101?e=1700697600&v=beta&t=cN4qfQAALk_Vi1dQIsRJpYL6iYQ1rf4n-PIMt4ihuaM)
-)
+![Web 1](https://media.licdn.com/dms/image/D4D22AQFTbo_trrozKA/feedshare-shrink_2048_1536/0/1697925355101?e=1707955200&v=beta&t=a6DY0aJBe0zULvC2sCwKeHLTHf5nUPOoKjpd-qoCd3w)
 
-![Web 2](https://media.licdn.com/dms/image/D4D22AQGIDPY0PToZxA/feedshare-shrink_2048_1536/0/1697925355210?e=1700697600&v=beta&t=7VzpoiMSD-fH01eU1l2LU1Mf5kCgRv2hiqnbujb7IKc)
+![Web 2](https://media.licdn.com/dms/image/D4D22AQGIDPY0PToZxA/feedshare-shrink_2048_1536/0/1697925355210?e=1707955200&v=beta&t=rslN7T6CH4wxBl_1rQ9tIx5vxGffE8d9sJ1gsXVuiJY)
 
 ## Layout mobile
-![Mobile 1](https://media.licdn.com/dms/image/D4D22AQGtrZsD1M8zNw/feedshare-shrink_800/0/1697925355043?e=1700697600&v=beta&t=boYeNtq3dWCKwAaJPrvHsdBl-vF6vUKQIZA0hMKN1Ec) ![Mobile 2](https://media.licdn.com/dms/image/D4D22AQHTg3siJPNwLA/feedshare-shrink_800/0/1697925355118?e=1700697600&v=beta&t=WwEQ1JdilEto5F7Kp8n6pqPhs53oKQ8hnhQRxuvtd9E)
+![Mobile 1](https://media.licdn.com/dms/image/D4D22AQGtrZsD1M8zNw/feedshare-shrink_800/0/1697925355043?e=1707955200&v=beta&t=PHjcpUCpq7dvZ6thpA4QeVZxds8uheop8fya466tOPg) ![Mobile 2](https://media.licdn.com/dms/image/D4D22AQHTg3siJPNwLA/feedshare-shrink_800/0/1697925355118?e=1707955200&v=beta&t=gtSy08wvbjr4Ik7QSS16EHexR3q1ZZuNxLBUIvBNhj0)
 
 # Tecnologias utilizadas
 ## Front end
